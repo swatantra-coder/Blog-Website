@@ -28,7 +28,7 @@ app.get("/",function(req,res){
 
 });
 
-app.t("/home",function(req,res){
+app.get("/home",function(req,res){
   res.render("home", {
     StartingContent: homeStartingContent,
      posts: posts
